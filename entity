@@ -1,0 +1,40 @@
+//I have changed my UML to have public classes and methods instead of private ones.
+
+public class world
+{
+    int entity = 1;
+    public static void createcreature()
+    {
+        entity + 1;
+    }
+}
+
+public class entity extends world implements dieandbirth
+{
+    int entity = 1;
+    public static void reproduce();
+    {
+
+    }
+    public static void die();
+    {
+
+    }
+    public static void main(String[] args)
+    {
+    void count(int n)
+    {
+        createcreature();
+
+    }
+    }
+}
+
+//merged birth and deathrate as well as changing it into an interface
+public interface dieandbirth
+{
+    public static void reproduce();
+
+    public static void die()
+
+}
